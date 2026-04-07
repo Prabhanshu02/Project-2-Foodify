@@ -1,0 +1,50 @@
+.header {
+  background-color: silver;
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.restaurant-card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #000000bf;
+}
+
+.restaurant-card {
+  background-color: #d0f0f9b8;
+  width: 18%;
+  margin: 10px;
+  padding: 5px;
+}
+
+.search-container {
+  padding: 10px;
+}
+
+.restaurant-logo {
+  width: 100%;
+  height: 200px;
+}
+
+.restaurant-container {
+  background-color: #ebf5f5;
+  flex-wrap: wrap;
+  display: flex;
+}
+/*# sourceMappingURL=khanabazaar.3a01df49.css.map */
